@@ -1,0 +1,77 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-containers{
+    margin-top: 120px;
+}
+.text-containers h4{
+    font-family: 'Open Sans', sans-serif !important;
+}
+.text-containers h6{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.nav-link{
+    color: #545454 !important;
+}
+.active{
+    color: #4C84C3 !important;
+}
+.nav-section{
+    background-color: #E6EEF2;
+}
+.nav-section .nav li a:hover{
+    color: #4C84C3 !important;
+}
+
+th, td {
+    padding: 15px 20px 20px 10px !important;
+  }
+
+@media screen and (max-width: 769px) {
+    #patient-img{
+        width: 200px;
+    }
+    .text-containers{
+        margin-top: 140px;
+    }
+}
+@media screen and (max-width: 426px) {
+    #patient-img{
+        width: 150px;
+    }
+    .text-containers{
+        margin-top: 120px;
+    }
+    .table{
+        font-size: 7px;
+    }
+    .table-text{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    #Patient-description .p-4{
+        padding-left: 10px !important;
+    }
+    .nav-section .nav-item a{
+        font-size: 11px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 376px) {
+    #patient-img{
+        width: 100px;
+    }
+    .text-containers{
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 321px) {
+    #patient-img{
+        width: 100px;
+    }
+    .text-containers{
+        margin-top: 80px;
+    }
+}

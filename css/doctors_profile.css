@@ -1,0 +1,79 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Hero section */
+#hero-section{
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-text{
+    color: #555555 !important;
+}
+.text-size{
+    font-size: 14px;
+}
+.main-colorbg{
+    background-color: #4C84C3 !important;
+}
+.fa-brands.fa-twitter-color{
+    color: #2489BE !important;
+}
+.social-link a .fa-twitter-square{
+    color: #2DAAE1 !important;
+}
+
+
+/* Clinic section */
+#clinic-section{
+    font-family: 'Open Sans', sans-serif;
+}
+.clinic-bg{
+    background-color:#B2DDED4D;
+}
+
+/* Swiper section */
+
+#swiper-section{
+    background-image: linear-gradient(180deg, rgba(178, 221, 237, 0.3) 50%, white 50%);
+}
+
+/* about section */
+#about-section p{
+    font-family: 'Epilogue', sans-serif;
+}
+/* Doctor journey */
+
+#doctor-journey h3{
+    font-family: 'Epilogue', sans-serif;
+}
+
+/* Article section */
+#article-section{
+    background-image: linear-gradient(white 33.33%, #B2DDED4D 33.33%, #B2DDED4D 66.66%, white 66.66%);
+}
+#article-section h3{
+    font-family: 'Epilogue', sans-serif;
+}
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+    .hero-text{
+        padding-top: 10px !important;
+    }
+    .hero-text .container .row {
+        margin-left:25% !important;
+        padding-top: 10px !important;
+        margin-top: 0 !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #article-section .container-xxl .col-lg-4 .card{
+        max-width: 85% !important;
+        margin: auto;
+    }
+}

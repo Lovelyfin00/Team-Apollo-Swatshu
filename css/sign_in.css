@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F0F2F5!important;
+}
+
+.card-image {
+    height: 100vh;    
+}
+
+.w-30 {
+    width: 40%!important;
+    height: 43px!important;
+}
+
+.form-bg {
+    width: 40%;
+}
+
+.container .transparent-overlay {
+    background: rgba(255, 242, 242, 0.13);
+    backdrop-filter: blur(100px);
+    mix-blend-mode: normal;
+    bottom: 10px;
+    height: 30%;
+    width: 85%;
+}
+
+.line {
+    height: 1px;    
+}
+
+.agreement a {
+    text-decoration: none;
+}
+
+/* Mobile screen */
+@media (max-width: 426px) {
+    .form-section {
+        width: 100%!important;
+        padding: 0!important;
+    }
+
+    .form-bg {
+        display: none;
+    }
+
+    .login-account {
+        margin: 0!important;
+    }
+
+    .login-account .nav-link {
+        padding-left: 0!important;
+        margin: 20px 0!important;
+    }
+}
+
+/* Tablet screen */
+@media (min-width: 425px) and (max-width: 769px) {
+    .form-section {
+        width: 100%!important;        
+    }
+
+    .form-bg {
+        display: none;
+    }    
+}
+
+/* Laptop screen */
+@media (min-width: 768px) and (max-width: 1440px) {   
+    .form-bg {
+        width: 50%;
+        min-height: 100vh;        
+    }
+
+    .w-90 {
+        width: 90%!important;
+    }
+
+    .card-image {
+        width: 100%;
+        height: 100%;
+    }
+}

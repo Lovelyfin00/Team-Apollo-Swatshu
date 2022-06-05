@@ -1,0 +1,74 @@
+.location{
+    background-color: #E6EEF2;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#title h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+
+#title{
+    margin-top: 40px;
+}
+
+.title h2{
+    font-family: open sans-serif;
+    font-size: 28px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.sub_title h5{
+    font-size: 20px;
+    color: #555555;
+}
+
+.button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.price{
+    font-size: 24px;
+    color: #555555;
+    display: flex;
+    justify-content: end;
+}
+.avail{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    color: #24A78F;
+}
+
+.details p{
+    font-size: 16px;
+    color: #555555;
+}
+
+#docprofile1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#docprofile2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#docprofile3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#docprofile4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lastrule{
+    margin-bottom: 120px;
+}

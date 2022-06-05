@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/d972efdfc6.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/header-styles.css">
+    <link rel="stylesheet" href="css/sign_in.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <!-- Header section -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo 1.svg" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="input-group position-relative ms-3">
+                    <div class="w-25">
+                        <i class="fa-solid fa-location-dot position-absolute main-color" style="z-index: 999; top: 10px; left: 1%;"></i>
+                        <input type="text" class="form-control border-color input-sm" placeholder="Location" />
+                    </div>
+                    <span class="input-group-btn" style="width:0px;"></span>
+                    <div class="input-border" style="width: 60% !important;">
+                        <i class="fa-solid fa-magnifying-glass position-absolute main-color" style="z-index: 999; top: 10px; left: 26%;"></i>
+                        <input type="text" class="form-control border-color input-sm" placeholder="Search for Doctors, hospital & others...." />
+                    </div>
+                </div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 ">
+                    <li class="nav-item">
+                        <a class="nav-link header-color"  href="#">Appointments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-color" href="#">Consult Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-color" href="#">Diagnotics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sign-in.html" class="nav-link btn btn-outline-primary main-color">Login/Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header section end -->
+
+    <section>
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div class="form-section w-50 p-5">                    
+                    <form class="w-100 text-center">
+                        <h2 class="fs-1 fw-bold">Welcome Back</h2>
+                        <h5 class="fs-6">Login into your account</h5>
+                        <div class="login-account d-flex  my-5 justify-content-between">
+                            <a href="https://google.com" class="nav-link border border-primary rounded bg-light d-inline-flex p-2 w-40 m-auto">
+                                <img src="img/google 1.png" class="img-fluid mx-2" alt="Google account login">
+                                Google
+                            </a>
+                            <a href="https://facebook.com" class="nav-link border border-primary rounded bg-light d-inline-flex p-2 w-40 m-auto">
+                                <img src="img/facebook 1.png" class="img-fluid mx-2" alt="Facebook account login">
+                                Facebook
+                            </a>
+                        </div>
+                        <div class="continue-with d-flex align-items-center justify-content-center mb-4">
+                            <img src="img/line.png" class="line mb-3 w-25" alt=""><p class="mx-3">Or continue with</p><img src="img/line.png" class="line mb-3 w-25" alt="">
+                        </div>
+                        <div class="mb-4">                            
+                            <input type="email" class="form-control p-3" id="email" placeholder="Email">
+                          </div>
+                          <div class="mb-3">                            
+                            <input type="password" class="form-control p-3" id="password" placeholder="Password">
+                        </div>
+                        <div class="remember-me d-inline-flex w-100 justify-content-between mb-4">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                <label class="form-check-label fw-semibold" for="flexSwitchCheckDefault">Remember me</label>
+                            </div>
+                            <a href="#" class="nav-link text-danger">Recover password</a>
+                        </div>
+                        <a class="btn btn-outline-primary w-100 py-2 text-dark" href="patient_profile.html" role="button">Log In</a>
+                        <div class="sign-up-link d-flex w-100 justify-content-center mt-5">
+                            <p class="mt-2">Don't have an account?</p><a class="nav-link text-primary ms-3" href="sign-up.html">Sign up!</a>
+                        </div>                          
+                    </form>                                      
+                </div>
+                <div class="form-bg position-relative">
+                    <img src="img/sign-in.png" class="card-image" alt="Sign In">
+                    <div class="transparent-overlay m-4 p-4 rounded position-absolute">
+                        <div class="top-notch bg-primary text-white d-flex px-4 align-items-center">
+                            <img src="img/thumbs-up.png" class="img-fluid me-3" alt="Thumbs up">
+                            <p class="mt-3">Top Notch Stock Services</p>
+                        </div>
+                        <p class="text-white mt-4">Today, we create innovative solutions to the challenges that consumers 
+                            face in both their everyday lives and events.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

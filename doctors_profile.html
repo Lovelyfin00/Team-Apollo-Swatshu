@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's profile </title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/d972efdfc6.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/header-styles.css">
+
+    <link rel="stylesheet" href="css/doctors_profile.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    <!-- Header section -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/logo 1.svg" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="input-group position-relative ms-3">
+                    <div class="w-25">
+                        <i class="fa-solid fa-location-dot position-absolute main-color" style="z-index: 999; top: 10px; left: 1%;"></i>
+                        <input type="text" class="form-control border-color input-sm" placeholder="Location" />
+                    </div>
+                    <span class="input-group-btn" style="width:0px;"></span>
+                    <div class="input-border" style="width: 60% !important;">
+                        <i class="fa-solid fa-magnifying-glass position-absolute main-color" style="z-index: 999; top: 10px; left: 26%;"></i>
+                        <input type="text" class="form-control border-color input-sm" placeholder="Search for Doctors, hospital & others...." />
+                    </div>
+                </div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 ">
+                    <li class="nav-item">
+                        <a class="nav-link header-color"  href="patient_appointment.html">Appointments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-color" href="doctors_listing.html">Consult Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-color" href="patient_diagnotics.html">Diagnotics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fa-solid fa-user fa-2xl text-black"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header section end -->
+
+
+
+    <!-- Hero section-->
+    <section id="hero-section">
+        <div class="hero-images">
+            <div class="w-100 position-relative h-75">
+                <img src="img/doctors-herobg.png" alt="Doctor" class=" w-100 h-75">
+                <div style="width: 40%;">
+                    <img src="img/doctor-profile.png" alt="doctor profile image" class="img-fluid position-absolute" style="top: 29%; left:8%; width: 20%;">
+                </div>
+            </div>   
+        </div>
+
+        <div class="hero-text bg-white pt-4 pb-4">
+            <div data-aos="fade-right" data-aos-delay="50" data-aos-easing="ease-in" data-aos-duration="1000">
+                <div class="container">
+                    <div class="row pt-4 mt-2 pb-4">
+                        <div class="col-lg-8 col-md-8">
+                            <h4 class="text-black fw-bold">Dr. Yateesh Bhardwaj</h4>
+                            <p class="">MBBS, MD - Obstetrics & Gynaecology</p>
+                            <p class="hero-text text-size">Infertility Specialist, Gynecologist, Obstetrician, Laparoscopic Surgeon (Obs & Gyn) 30 Years Experience Overall  (29 years as specialist)</p>
+                            <p class="hero-text text-size">Vasant Kunj, Delhi, India</p>
+                            <a href="" class="btn main-colorbg text-white mb-4" style="border-radius: 10px;">Book Online Consultation</a>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="social-link">
+                                <a href="#"><i class="fa-brands fa-facebook fa-2xl pe-3" style="color: #3C5A9A;;"></i></a>
+                                <a href="#"><img src="img/linkedin circle.png" alt="linkedin icon" class="pe-3 img-fluid"></a>
+                                <a href="#"><img src="img/twitter circle.png" alt="twitter icon" class="pe-3 img-fluid"></a>
+                                <a href="#"><img src="img/instagram.png" alt="instagram cion" class="img-fluid"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinic section -->
+
+    <section id="clinic-section" class="clinic-bg pt-5 pb-3 mt-3">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-lg-6 col-md-6">
+                    <div data-aos="fade-down" data-aos-delay="100" data-aos-easing="ease-in" data-aos-duration="1000">
+                        <h3 class="main-color text-sm-center text-center text-lg-start">IVF CLEVELAND CLINIC</h3>
+                        <p class="hero-text text-size text-sm-center text-center text-lg-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p class="hero-text text-size text-sm-center text-center text-lg-start">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 pb-5">
+                    <div data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in" data-aos-duration="1000">
+                        <div class="clinic-card w-75 main-colorbg rounded-3 m-auto p-4">
+                            <h6 class="text-center border-bottom pb-2 text-white">Opening Hours</h6>
+                            <div class="d-flex justify-content-between">
+                                <p class="text-white">Mon - Fri :</p>
+                                <p class="text-white text-size">10:00  -  14:00</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p class="text-white">Sunday :</p>
+                                <p class="text-white text-size">12:00  -  14:00</p>
+                            </div>
+                            <p class="text-white"><small>Clinic will be closed on public Holidays</small></p>
+                            <p class="border-top pt-2 text-center text-size text-white">Emergency/Clinic Contact</p>
+                            <p class="text-center text-white">+91 - 7542652546</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- swiper section -->
+
+    <section id="swiper-section" class="pt-5 pb-5">
+        <div class="container pt-5 pb-5">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper ">
+                  <div class="swiper-slide text-center">
+                      <img src="img/image 3.png" alt="clinic image">
+                  </div>
+                  <div class="swiper-slide text-center">
+                    <img src="img/image 3.png" alt="clinic image">
+                  </div>
+                  <div class="swiper-slide text-center">
+                    <img src="img/image 3.png" alt="clinic image">
+                  </div>
+                  <div class="swiper-slide text-center">
+                    <img src="img/image 3.png" alt="clinic image">
+                  </div>
+                  <div class="swiper-slide text-center">
+                    <img src="img/image 3.png" alt="clinic image">
+                  </div>
+                  <div class="swiper-slide text-center">
+                    <img src="img/image 3.png" alt="clinic image">
+                  </div>
+                  <div class="swiper-slide text-center">
+                    <img src="img/image 3.png" alt="clinic image">
+                  </div>
+                  <div class="swiper-slide text-center">
+                    <img src="img/image 3.png" alt="clinic image">
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+
+    <section id="about-section" class="pb-5">
+        <div class="container pt-4 pb-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <img src="img/index-01-490x360 1.png" alt="doctor image" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div data-aos="fade-up" data-aos-delay="150" data-aos-easing="ease-in" data-aos-duration="1000">
+                        <h4 class="main-color pb-3 w-75 m-auto">About Dr. Yateesh Bhardwaj</h4>
+                        <p class="hero-text m-auto" style="width:85%;">Dr Surveen Ghumman Sindhu has a vast experience of 24 year of working in tertiary care hospitals and has been a faculty as an undergraduate and postgraduate teacher in renowned medical colleges of Delhi over the last 24 years.She has specialized in Assisted reproductive technologies and IVF from the prestigious Cleveland clinic, USA and is a certified clinical embryologist from Manipal University, the only university in India running a post graduate program in Clinical Embryology. She is currently the Director and Head at IVF and Reproductive medicine, Max Multispeciality Hospitals, Saket, Panchsheel and Patparganj, Delhi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="doctor-journey" class="pt-5 pb-4 clinic-bg">
+        <div class="container pt-4 pb-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h3  class="pb-3 text-lg-start text-md-start w-100 main-color">Dr. Yateesh Bhardwaj Career Journey till date</h3>
+                    <ul class="list-unstyled m-auto" style="width: 80% !important ">
+                        <li class="pb-3 ">
+                            <p class="main-color">1. Ipsum et duis fermentum nisl.</p>
+                            <p class="ps-3 text-size hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra consequat libero gravida purus sodales.</p>
+                            <p class="ps-3 text-size hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra consequat libero gravida purus sodales.</p>
+                        </li>
+                        <li class="pb-3">
+                            <p>2. Ipsum et duis fermentum nisl.</p>
+                        </li>
+                        <li class="pb-3">
+                            <p>2. Ipsum et duis fermentum nisl.</p>
+                        </li>
+                        <li >
+                            <p>2. Ipsum et duis fermentum nisl.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 text-center text-lg-start text-md-start pt-5">
+                    <img src="img/about-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education-section" class="pt-5 pb-4">
+        <div class="container pt-5 pb-5">
+            <div data-aos="fade-down" data-aos-delay="100" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                <h3 class="main-color text-center pb-5">Educational Background</h3>
+            </div>
+            <div class="row pb-5">
+                <div class="col-lg-6 col-md-6">
+                    <div data-aos="flip-up" data-aos-delay="150" data-aos-duration="1000">
+                        <div class="education-card shadow border rounded pt-3 pb-3 ps-2 pe-2">
+                            <div class="card-body">
+                                <div class="card-img pb-3">
+                                    <img src="img/Rectangle 248.png" alt="edcation image">
+                                </div>
+                                <h5 class="main-color">Ipsum et duis fermentum nisl.</h5>
+                                <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra consequat libero gravida purus sodales.</p>
+                                <ul>
+                                    <li>   Lorem ipsum dolor sit amet, consectetur elit.</li>
+                                    <li>   Lorem ipsum dolor sit amet, consectetur elit.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div data-aos="flip-up" data-aos-delay="150" data-aos-duration="1000">
+                        <div class="education-card shadow border rounded pt-3 pb-3 ps-2 pe-2">
+                            <div class="card-body">
+                                <div class="card-img pb-3">
+                                    <img src="img/Rectangle 248.png" alt="edcation image">
+                                </div>
+                                <h5 class="main-color">Ipsum et duis fermentum nisl.</h5>
+                                <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra consequat libero gravida purus sodales.</p>
+                                <ul>
+                                    <li>   Lorem ipsum dolor sit amet, consectetur elit.</li>
+                                    <li>   Lorem ipsum dolor sit amet, consectetur elit.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-lg-6 col-md-6">
+                    <div data-aos="flip-down" data-aos-delay="150" data-aos-duration="1000">
+                        <div class="education-card shadow border rounded pt-3 pb-3 ps-2 pe-2">
+                            <div class="card-body">
+                                <div class="card-img pb-3">
+                                    <img src="img/Rectangle 248.png" alt="edcation image">
+                                </div>
+                                <h5 class="main-color">Ipsum et duis fermentum nisl.</h5>
+                                <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra consequat libero gravida purus sodales.</p>
+                                <ul>
+                                    <li>   Lorem ipsum dolor sit amet, consectetur elit.</li>
+                                    <li>   Lorem ipsum dolor sit amet, consectetur elit.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div data-aos="flip-down" data-aos-delay="150" data-aos-duration="1000">
+                        <div class="education-card shadow border rounded pt-3 pb-3 ps-2 pe-2">
+                            <div class="card-body">
+                                <div class="card-img pb-3">
+                                    <img src="img/Rectangle 248.png" alt="edcation image">
+                                </div>
+                                <h5 class="main-color">Ipsum et duis fermentum nisl.</h5>
+                                <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra consequat libero gravida purus sodales.</p>
+                                <ul>
+                                    <li>   Lorem ipsum dolor sit amet, consectetur elit.</li>
+                                    <li>   Lorem ipsum dolor sit amet, consectetur elit.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="article-section">
+        <div class="container-xxl">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-lg-4 container-md mb-3">
+                    <h3 class="main-color">Articles by Dr. Yateesh Bhardwaj</h3>
+                    <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. . .</p>
+                    <div class="d-flex justify-content-end">
+                        <a href="" class="text-decoration-none">View All <span style="color: green; font-size: 20px;">&#8594;</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 container-md mb-5">
+                    <div class="card" style="width: 100%; border-radius: 20px !important;">
+                        <img src="img/doctor-img.png" class="card-img-top" alt="..." style="border-radius:20px 20px 0 0 !important;">
+                        <div class="card-body">
+                            <p class="main-color">Ipsum et duis fermentum nisl.</p>
+                            <p class="hero-text text-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra consequat libero gravida purus sodales.Lorem ipsum dolor sit amet, consectetur adipiscing elit. . .</p>
+                            <div class=" d-flex justify-content-end">
+                                <a href="" class="text-decoration-none main-color">Read more</a>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center container-md">
+                    <div >
+                        <div class="card rounded mb-5" style="width: 100%; border-radius: 20px !important;">
+                            <img src="img/doctor-img.png" class="card-img-top" alt="..." style="border-radius:20px 20px 0 0 !important;">
+                            <div class="card-body">
+                                <p class="main-color">Ipsum et duis fermentum nisl.</p>
+                                <p class="hero-text text-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra consequat libero gravida purus sodales.Lorem ipsum dolor sit amet, consectetur adipiscing elit. . .</p>
+                                <div class=" d-flex justify-content-end">
+                                    <a href="" class="text-decoration-none main-color">Read more</a>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="card rounded mb-5" style="width: 100%; border-radius: 20px !important;">
+                            <img src="img/doctor-img.png" class="card-img-top" alt="..." style="border-radius:20px 20px 0 0 !important;">
+                            <div class="card-body">
+                                <p class="main-color">Ipsum et duis fermentum nisl.</p>
+                                <p class="hero-text text-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra consequat libero gravida purus sodales.Lorem ipsum dolor sit amet, consectetur adipiscing elit. . .</p>
+                                <div class="d-flex justify-content-end">
+                                    <a href="" class="text-decoration-none main-color ">Read more</a>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+  
+    <!-- Footer section -->
+    <footer>
+        <div class="newsletter-section footer-bg1 pt-5 pb-5">
+            <div class="container">
+                <div class="m-auto" style="width: 90% !important;">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <h4 class="text-white text-center pb-2" style="opacity:0.95">Get an update every week</h4>
+                                <p class="text-white text-center " style="opacity: 0.7;">Livedoc was created in order to improve the patient experience. Providing world-class tests, and a wide range of other services.</p>
+                            </div>
+                            <div class="col-lg-7">
+                                <h4 class="footer-color text-center pb-3">SUBSCRIBE TO NEWS LETTER</h4>
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-lg-9 col-md-8 ">
+                                            <label for="newsletter1" class="visually-hidden  footer-bg px-4 ">Email address</label>
+                                            <input type="email" id="newsletter1" class="form-control border-color bg-transparent footer-color" placeholder="Email" style="border-radius: 15px !important;">
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 text-center">
+                                            <button class="btn btn-light mt-3 px-4 " type="button" style="border-radius: 15px !important;">Subscribe</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-links pt-5 pb-5">
+            <div class="container pt-4 pb-4">
+                <div class="m-auto mx-3" >
+                    <div class="row">
+                        <div class="col-lg-2 text-center">
+                            <div class="logo pb-3">
+                                <img src="img/logo 2.png" class="img-fluid" alt="footer logo">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                            <h4 class="text-white " style="opacity: 0.94;">Quick Links</h4>
+                            <ul class="list-unstyled ">
+                                <li><a href="#" class="text-decoration-none footer-color">How it works</a></li>
+                                <li><a href="#" class="text-decoration-none footer-color">About us</a></li>
+                                <li><a href="#" class="text-decoration-none footer-color">Membership</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                            <h4 class="text-white pb-1" style="opacity: 0.94;">Departments</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-decoration-none footer-color">Eye care</a></li>
+                                <li><a href="#" class="text-decoration-none footer-color">Cardiac area</a></li>
+                                <li><a href="#" class="text-decoration-none text-white">Heart care</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                            <p class="footer-color">Eye care</p>
+                            <ul class="list-unstyled ">
+                                <li><a href="#" class="text-decoration-none footer-color">General Medicine</a></li>
+                                <li><a href="#" class="text-decoration-none footer-color">Orthopdecics</a></li>
+                                <li><a href="#" class="text-decoration-none footer-color">Heart care</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                            <h4 class="text-white" style="opacity: 0.94;">Customer Case</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-decoration-none footer-color">About us</a></li>
+                                <li><a href="#" class="text-decoration-none footer-color">Contact us</a></li>
+                                <li><a href="#" class="text-decoration-none footer-color">Send Details</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-1 col-md-6 col-sm-6 position-relative">
+                            <div class="footer-dots text-center position-absolute top-50 end-100">
+                                <img src="img/BGE3.png" alt="footer dots">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-section footer-bg1">
+            <div class="container pt-4 pb-4">
+                <div class="w-75 m-auto d-flex justify-content-between align-items-center">
+                    <p class="mb-0">All rights Reserved &copy; Swasthu.com, 2021</p>
+                    <p class="mb-0">Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section end -->
+
+
+
+
+
+
+
+    <!-- AOS Aimation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+    async></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+      },
+      breakpoints: {
+                426: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 50,
+                },
+      },
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Isotope Javascript -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- Bootstrap js bundle -->
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

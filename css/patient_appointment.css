@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+}
+
+.overflow-image {
+    padding-top: 0;
+    position: relative;
+    z-index: 100;
+    top: -69px;
+}
+
+.text-container{
+    margin-top: 120px;
+}
+.nav-link{
+    color: #545454 !important;
+}
+.active{
+    color: #4C84C3 !important;
+}
+.nav-section{
+    background-color: #E6EEF2;
+}
+
+.light-blue {
+    background-color: #E6EEF2;
+}
+
+
+/* ---------Mobile View----------------- */
+
+@media (max-width: 426px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /*  <!-- -----------------round Overflow-Image--------------------------> */
+    .overflow-image {
+        padding-top: 0;
+        position: relative;
+        z-index: 100;
+        top: -20px;
+    }
+
+    #overflow-image .icon-image img {
+        width: 30%;
+        margin-left: 5px;
+    }
+
+    #overflow-image .icon-image h2 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #overflow-image .icon-image p {
+        font-size: 12px;
+    }
+    
+    .overflow-image{
+        margin-left: -26px;
+    }
+
+    .overflow-image .icon-image {
+        margin-left: -41px;
+    }
+
+    /* <!-- -----------------second nav lightblue section -----------------> */
+    .nav-section .nav-item a{
+    font-size: 11px;
+    font-weight: 700;
+    }
+
+    /* <!-- -----------------Table Section  -------------------------------> */
+    #appointmental .appointment h3 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    #appointmental .appointment .table {
+        font-size: 7px;
+    }
+
+    #circles .row {
+        justify-content: flex-end;
+    }
+    
+    /* <!-- ------------------Circle Section----------------------------- --> */
+    #circles .row img {
+        width: 10%;
+        height: 10%;
+    }
+}

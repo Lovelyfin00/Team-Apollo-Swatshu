@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #education-profile {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .font2 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .bg-page3 {
+    background: #E6EEF2;
+  }
+  
+  .color-page2 {
+    color: #545454;
+  }
+  
+  .color-page3 {
+    color: #4C84C3;
+  }
+  
+  .color-page4 {
+    color: #555555;
+  }
+
+  .nav-item a {
+      position: relative;
+  }
+  .mt-5 .list-unstyled .nav-item a:hover{
+    color: #4C84C3 !important;
+  }
+  .active {
+      padding: 7px 0 !important;
+  }
+  .nav-item .active::after {
+      content: "";
+      position: absolute;
+      background-color: #4C84C3;
+      height: 3px;
+      width: 100%;
+      left: 0;
+      bottom: -3px;
+  }
+  
+  @media screen and (max-width: 769px) {
+    #patient {
+      width: 180px;
+    }
+  }
+  
+  @media screen and (max-width: 426px) {
+    #patient {
+      width: 130px;
+    }
+    .text-container {
+        margin-top: -40px;
+      }
+  }
+  
+  @media screen and (max-width: 376px) {
+    #patient {
+      width: 100px;
+    }
+    .text-container {
+      margin-top: -70px;
+    }
+  }
+  
+  

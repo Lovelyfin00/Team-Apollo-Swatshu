@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#why-swasthu #why-section .row .col-lg-6 p{
+    color: #555555;
+}
+
+.phone-background {
+    background-image: url(../img/Group3.png);
+    height: 450px;
+}
+
+
+
+@media (max-width: 426px) {
+     #phone-area .phone-background .text-sec .text-secondary{
+         line-height: 20px !important;
+     } 
+
+     #why-swasthu #why-section .text-secondary{
+        line-height: 20px !important;
+    } 
+    .text-sec .btn-dark:first-child{
+        margin-bottom: 10px !important;
+    }
+     
+ }
+@media (max-width:768px) {
+    .phone-background{
+        background: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+    }
+    .text-part{
+        width: 85%;
+        margin: auto !important;
+    }
+    .text-sec p{
+        color: white !important;
+    }
+}
